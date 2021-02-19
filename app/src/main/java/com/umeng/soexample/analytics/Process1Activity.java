@@ -48,7 +48,6 @@ public class Process1Activity extends Activity{
         mKillProcessBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 new Handler().postDelayed(new Runnable() {
                     @Override
                     public void run() {
